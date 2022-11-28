@@ -11,6 +11,17 @@
 		2F178DF829349EF10061100E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F178DF729349EF10061100E /* ContentView.swift */; };
 		2F178DFA29349EF20061100E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F178DF929349EF20061100E /* Assets.xcassets */; };
 		2F178DFE29349EF20061100E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F178DFD29349EF20061100E /* Preview Assets.xcassets */; };
+		2F178E072934A0000061100E /* Collection+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F178E062934A0000061100E /* Collection+Extensions.swift */; };
+		2F178E092934A0220061100E /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F178E082934A0220061100E /* Project.swift */; };
+		2F178E0B2934A0CC0061100E /* Technology.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F178E0A2934A0CC0061100E /* Technology.swift */; };
+		2F178E0F2934A1250061100E /* Presentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F178E0E2934A1250061100E /* Presentation.swift */; };
+		2F178E122934A39D0061100E /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F178E112934A39D0061100E /* HomeScreen.swift */; };
+		2F178E142934A3A40061100E /* AboutScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F178E132934A3A40061100E /* AboutScreen.swift */; };
+		2F178E162934A3A90061100E /* ContactScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F178E152934A3A90061100E /* ContactScreen.swift */; };
+		2F178E182934A3AD0061100E /* CVScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F178E172934A3AD0061100E /* CVScreen.swift */; };
+		2F178E1A2934A3B20061100E /* PortfolioScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F178E192934A3B20061100E /* PortfolioScreen.swift */; };
+		2F178E1D2934A3BE0061100E /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F178E1C2934A3BE0061100E /* Tab.swift */; };
+		2F178E6D2934E4540061100E /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F178E6C2934E4540061100E /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +31,17 @@
 		2F178DF929349EF20061100E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F178DFB29349EF20061100E /* NeurothroneApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NeurothroneApp.entitlements; sourceTree = "<group>"; };
 		2F178DFD29349EF20061100E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2F178E062934A0000061100E /* Collection+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Extensions.swift"; sourceTree = "<group>"; };
+		2F178E082934A0220061100E /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		2F178E0A2934A0CC0061100E /* Technology.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Technology.swift; sourceTree = "<group>"; };
+		2F178E0E2934A1250061100E /* Presentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presentation.swift; sourceTree = "<group>"; };
+		2F178E112934A39D0061100E /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		2F178E132934A3A40061100E /* AboutScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutScreen.swift; sourceTree = "<group>"; };
+		2F178E152934A3A90061100E /* ContactScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactScreen.swift; sourceTree = "<group>"; };
+		2F178E172934A3AD0061100E /* CVScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVScreen.swift; sourceTree = "<group>"; };
+		2F178E192934A3B20061100E /* PortfolioScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioScreen.swift; sourceTree = "<group>"; };
+		2F178E1C2934A3BE0061100E /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		2F178E6C2934E4540061100E /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +76,12 @@
 			children = (
 				2F178DF529349EF10061100E /* NeurothroneApp.swift */,
 				2F178DF729349EF10061100E /* ContentView.swift */,
+				2F178E6C2934E4540061100E /* Constant.swift */,
 				2F178DF929349EF20061100E /* Assets.xcassets */,
 				2F178DFB29349EF20061100E /* NeurothroneApp.entitlements */,
+				2F178E0529349FF70061100E /* Extensions */,
+				2F178E0429349FF40061100E /* Models */,
+				2F178E102934A3720061100E /* Views */,
 				2F178DFC29349EF20061100E /* Preview Content */,
 			);
 			path = "Neurothrone-iOS";
@@ -67,6 +93,37 @@
 				2F178DFD29349EF20061100E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2F178E0429349FF40061100E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2F178E082934A0220061100E /* Project.swift */,
+				2F178E0E2934A1250061100E /* Presentation.swift */,
+				2F178E0A2934A0CC0061100E /* Technology.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2F178E0529349FF70061100E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2F178E062934A0000061100E /* Collection+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2F178E102934A3720061100E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2F178E1C2934A3BE0061100E /* Tab.swift */,
+				2F178E112934A39D0061100E /* HomeScreen.swift */,
+				2F178E132934A3A40061100E /* AboutScreen.swift */,
+				2F178E152934A3A90061100E /* ContactScreen.swift */,
+				2F178E172934A3AD0061100E /* CVScreen.swift */,
+				2F178E192934A3B20061100E /* PortfolioScreen.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +196,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F178E1A2934A3B20061100E /* PortfolioScreen.swift in Sources */,
 				2F178DF829349EF10061100E /* ContentView.swift in Sources */,
 				2F178DF629349EF10061100E /* NeurothroneApp.swift in Sources */,
+				2F178E1D2934A3BE0061100E /* Tab.swift in Sources */,
+				2F178E122934A39D0061100E /* HomeScreen.swift in Sources */,
+				2F178E072934A0000061100E /* Collection+Extensions.swift in Sources */,
+				2F178E182934A3AD0061100E /* CVScreen.swift in Sources */,
+				2F178E6D2934E4540061100E /* Constant.swift in Sources */,
+				2F178E162934A3A90061100E /* ContactScreen.swift in Sources */,
+				2F178E092934A0220061100E /* Project.swift in Sources */,
+				2F178E0F2934A1250061100E /* Presentation.swift in Sources */,
+				2F178E0B2934A0CC0061100E /* Technology.swift in Sources */,
+				2F178E142934A3A40061100E /* AboutScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +347,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -317,6 +386,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
