@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F178DF629349EF10061100E /* Neurothrone_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F178DF529349EF10061100E /* Neurothrone_iOSApp.swift */; };
+		2F178DF629349EF10061100E /* NeurothroneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F178DF529349EF10061100E /* NeurothroneApp.swift */; };
 		2F178DF829349EF10061100E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F178DF729349EF10061100E /* ContentView.swift */; };
 		2F178DFA29349EF20061100E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F178DF929349EF20061100E /* Assets.xcassets */; };
 		2F178DFE29349EF20061100E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F178DFD29349EF20061100E /* Preview Assets.xcassets */; };
@@ -15,10 +15,10 @@
 
 /* Begin PBXFileReference section */
 		2F178DF229349EF10061100E /* Neurothrone-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Neurothrone-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F178DF529349EF10061100E /* Neurothrone_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neurothrone_iOSApp.swift; sourceTree = "<group>"; };
+		2F178DF529349EF10061100E /* NeurothroneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeurothroneApp.swift; sourceTree = "<group>"; };
 		2F178DF729349EF10061100E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2F178DF929349EF20061100E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2F178DFB29349EF20061100E /* Neurothrone_iOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Neurothrone_iOS.entitlements; sourceTree = "<group>"; };
+		2F178DFB29349EF20061100E /* NeurothroneApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NeurothroneApp.entitlements; sourceTree = "<group>"; };
 		2F178DFD29349EF20061100E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -52,10 +52,10 @@
 		2F178DF429349EF10061100E /* Neurothrone-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				2F178DF529349EF10061100E /* Neurothrone_iOSApp.swift */,
+				2F178DF529349EF10061100E /* NeurothroneApp.swift */,
 				2F178DF729349EF10061100E /* ContentView.swift */,
 				2F178DF929349EF20061100E /* Assets.xcassets */,
-				2F178DFB29349EF20061100E /* Neurothrone_iOS.entitlements */,
+				2F178DFB29349EF20061100E /* NeurothroneApp.entitlements */,
 				2F178DFC29349EF20061100E /* Preview Content */,
 			);
 			path = "Neurothrone-iOS";
@@ -140,7 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F178DF829349EF10061100E /* ContentView.swift in Sources */,
-				2F178DF629349EF10061100E /* Neurothrone_iOSApp.swift in Sources */,
+				2F178DF629349EF10061100E /* NeurothroneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +261,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Neurothrone-iOS/Neurothrone_iOS.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Neurothrone-iOS/NeurothroneApp.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Neurothrone-iOS/Preview Content\"";
@@ -299,7 +299,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Neurothrone-iOS/Neurothrone_iOS.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Neurothrone-iOS/NeurothroneApp.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Neurothrone-iOS/Preview Content\"";
